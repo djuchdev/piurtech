@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+
+    background-color: black;
+    color: white;
+    font-family: IBM Plex Sans;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logoHeader {
+    margin: 3%;
+}
+
+.header {
+
+    display: flex;
+    border-bottom: 1px white solid;
+    font-size: 0.7rem;
+    
+    }
+
+    @media (min-width: 700px) {
+      .header {
+        font-size: 1.5rem;
+      }
+    }
+
+
+.menuElements {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 2.7% 3% 1% 3%;
+    gap: 5%;
+
+}
+
+main {
+    border-bottom: white 1px solid;
+    
+}
+
+.fadein img {
+  position:absolute;
+  top: 40px;
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+@media (min-width: 400px) {
+  .fadein img {
+    position:absolute;
+    top: 50px;
+      
+  }
+  }
+
+@media (min-width: 500px) {
+  .fadein img {
+    position:absolute;
+    top: 75px;
+      
+  }
+  }
+
+  @media (min-width: 600px) {
+    .fadein img {
+      position:absolute;
+      top: 90px;
+        
+    }
+    }
+
+
+@media (min-width: 900px) {
+  .fadein img {
+    position:absolute;
+    top: 125px;
+      
+  }
+  }
+
+
+  
+   
+
+@-webkit-keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+#f1 {
+  width: 100%;
+  background-color: lightblue;
+}
+#f2 {
+  width: 100%;
+  -webkit-animation-delay: -4s;
+  background-color: yellow;
+}
+#f3 {
+  width: 100%;
+  -webkit-animation-delay: -2s;
+  background-color: lightgreen;
+}
+
+
+
+footer {
+  position:relative;
+  top: 235px;
+    text-align: center;
+    margin: 3%;
+}
+
+@media (min-width: 500px) {
+  footer {
+    position:absolute;
+    top: 485px;
+      
+  }
+  }
+
+  @media (min-width: 800px) {
+    footer {
+      position:absolute;
+      top: 835px;
+        
+    }
+    }
+
+
+
+.menuFooter {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1% 3% 1% 3%;
+    gap: 5%;
+}
+
+.social {
+  width: 30%;
+}
+
+.insta {
+
+  margin-left: 85%;
+}
+
+.fb {
+
+  width: 55%;
+  margin-left: 40%;
+
+}
+
+.twt {
+
+  width: 30%;
+
+}
